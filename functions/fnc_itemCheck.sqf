@@ -19,8 +19,8 @@
 params ["_unit"];
 
 while {({_x == "85th_FAK"} count items _unit) > 0} do {
-    _unit removeItem "85th_FAK";
-    if (GVAR(level) >= 2) then {
+	_unit removeItem "85th_FAK";
+	if (GVAR(level) >= 2) then {
 	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_elasticBandage";
@@ -35,7 +35,6 @@ while {({_x == "85th_FAK"} count items _unit) > 0} do {
 	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_elasticBandage";
-        _unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
@@ -49,31 +48,31 @@ while {({_x == "85th_FAK"} count items _unit) > 0} do {
 	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
-        _unit addItemToBackpack "ACE_morphine";
+	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_morphine";
 	_unit addItemToBackpack "ACE_morphine";
 	_unit addItemToBackpack "ACE_morphine";
+	_unit addItemToBackpack "ACE_morphine";
 	_unit addItemToBackpack "ACE_epinephrine";
 	_unit addItemToBackpack "ACE_epinephrine";
 	_unit addItemToBackpack "ACE_epinephrine";
 	_unit addItemToBackpack "ACE_epinephrine";
-        _unit addItemToBackpack "ACE_tourniquet";
+	_unit addItemToBackpack "ACE_tourniquet";
 	_unit addItemToBackpack "ACE_tourniquet";
 	_unit addItemToBackpack "ACE_tourniquet";
 	_unit addItemToBackpack "ACE_tourniquet";
 	_unit addItemToBackpack "ACE_salineIV_250";
-    } else {
+	} else {
 	//below code not used
-        _unit addItemToBackpack "ACE_fieldDressing";
-        _unit addItemToBackpack "ACE_fieldDressing";
-        _unit addItemToBackpack "ACE_morphine";
-    };
+		_unit addItemToBackpack "ACE_fieldDressing";
+		_unit addItemToBackpack "ACE_fieldDressing";
+		_unit addItemToBackpack "ACE_morphine";
+	};
 };
 
 while {({_x == "85th_Medkit"} count items _unit) > 0} do {
-    _unit removeItem "85th_Medkit";
-    if (GVAR(level) >= 2) then {
-        _unit addItemToBackpack "ACE_elasticBandage";
+	_unit removeItem "85th_Medkit";
+	if (GVAR(level) >= 2) then {
 	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_elasticBandage";
@@ -87,35 +86,8 @@ while {({_x == "85th_Medkit"} count items _unit) > 0} do {
 	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_elasticBandage";
-        _unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_packingBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-	_unit addItemToBackpack "ACE_elasticBandage";
-        _unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
@@ -143,7 +115,6 @@ while {({_x == "85th_Medkit"} count items _unit) > 0} do {
 	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_elasticBandage";
 	_unit addItemToBackpack "ACE_elasticBandage";
-        _unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
@@ -155,7 +126,35 @@ while {({_x == "85th_Medkit"} count items _unit) > 0} do {
 	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_packingBandage";
-        _unit addItemToBackpack "ACE_morphine";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_elasticBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
+	_unit addItemToBackpack "ACE_packingBandage";
 	_unit addItemToBackpack "ACE_morphine";
 	_unit addItemToBackpack "ACE_morphine";
 	_unit addItemToBackpack "ACE_morphine";
@@ -171,6 +170,7 @@ while {({_x == "85th_Medkit"} count items _unit) > 0} do {
 	_unit addItemToBackpack "ACE_morphine";
 	_unit addItemToBackpack "ACE_morphine";
 	_unit addItemToBackpack "ACE_morphine";
+	_unit addItemToBackpack "ACE_morphine";
 	_unit addItemToBackpack "ACE_epinephrine";
 	_unit addItemToBackpack "ACE_epinephrine";
 	_unit addItemToBackpack "ACE_epinephrine";
@@ -187,7 +187,7 @@ while {({_x == "85th_Medkit"} count items _unit) > 0} do {
 	_unit addItemToBackpack "ACE_epinephrine";
 	_unit addItemToBackpack "ACE_epinephrine";
 	_unit addItemToBackpack "ACE_epinephrine";
-        _unit addItemToBackpack "ACE_tourniquet";
+	_unit addItemToBackpack "ACE_tourniquet";
 	_unit addItemToBackpack "ACE_tourniquet";
 	_unit addItemToBackpack "ACE_tourniquet";
 	_unit addItemToBackpack "ACE_tourniquet";
@@ -206,15 +206,15 @@ while {({_x == "85th_Medkit"} count items _unit) > 0} do {
 	_unit addItemToBackpack "ACE_salineIV";
 	_unit addItemToBackpack "ACE_salineIV";
 	_unit addItemToBackpack "ACE_bodyBag";	
-    } else {
+	} else {
 	// below code not used
-        _unit addItemToBackpack "ACE_epinephrine";
-        _unit addItemToBackpack "ACE_epinephrine";
-        _unit addItemToBackpack "ACE_epinephrine";
-        _unit addItemToBackpack "ACE_epinephrine";
-        _unit addItemToBackpack "ACE_bloodIV";
-        _unit addItemToBackpack "ACE_bloodIV";
-    };
+		_unit addItemToBackpack "ACE_epinephrine";
+		_unit addItemToBackpack "ACE_epinephrine";
+		_unit addItemToBackpack "ACE_epinephrine";
+		_unit addItemToBackpack "ACE_epinephrine";
+		_unit addItemToBackpack "ACE_bloodIV";
+		_unit addItemToBackpack "ACE_bloodIV";
+	};
 };
 
 
@@ -227,19 +227,19 @@ while {({_x == "85th_Medkit"} count items _unit) > 0} do {
 *unsure if this will cause the while loop to exit and immediately start again effecting performance.
 
 while {({_x == "85th_Medkit"} count items _unit) > 0} and {(_unit getVariable "Ace_medical_medicClass") >= 2} do {
-    _unit removeItem "85th_Medkit";
-    if (GVAR(level) >= 2) then {
-        _unit removeItems "ACE_salineIV";
-        _unit addItemToBackpack "ACE_salineIV";
-        _unit addItemToBackpack "ACE_salineIV";
-        _unit addItemToBackpack "ACE_salineIV";
-        _unit addItemToBackpack "ACE_salineIV";
-    } else {
-        _unit removeItems "ACE_epinephrine";
-        _unit addItemToBackpack "ACE_epinephrine";
-        _unit addItemToBackpack "ACE_epinephrine";
-        _unit addItemToBackpack "ACE_epinephrine";
-        _unit addItemToBackpack "ACE_epinephrine";
-    };
+	_unit removeItem "85th_Medkit";
+	if (GVAR(level) >= 2) then {
+		_unit removeItems "ACE_salineIV";
+		_unit addItemToBackpack "ACE_salineIV";
+		_unit addItemToBackpack "ACE_salineIV";
+		_unit addItemToBackpack "ACE_salineIV";
+		_unit addItemToBackpack "ACE_salineIV";
+	} else {
+		_unit removeItems "ACE_epinephrine";
+		_unit addItemToBackpack "ACE_epinephrine";
+		_unit addItemToBackpack "ACE_epinephrine";
+		_unit addItemToBackpack "ACE_epinephrine";
+		_unit addItemToBackpack "ACE_epinephrine";
+	};
 };
 */
