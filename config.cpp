@@ -1,3 +1,25 @@
+class CfgPatches
+{
+    class 85th_items
+    {
+        units[]={}
+        };
+        weapons[]={};
+        requiredVersion=0.1;
+        requiredAddons[]=
+        {
+            "ace_medical"
+        };
+        author="85th PMC";
+    };
+};
+
+class Extended_PostInit_EventHandlers {
+    class 85th_items {
+        init = "call compile preprocessFileLineNumbers 'XEH_postInit.sqf'";
+    };
+};
+
 class cfgWeapons
 {
 	class ItemCore;
