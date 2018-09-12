@@ -19,7 +19,7 @@ class CfgPatches
 
 class Extended_PostInit_EventHandlers {
     class 85th_items {
-        init = "call compile preprocessFileLineNumbers 'XEH_postInit.sqf'";
+        init = "call compile preprocessFileLineNumbers '85th_items\XEH_postInit.sqf'";
     };
 };
 
