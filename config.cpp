@@ -27,10 +27,7 @@ class cfgWeapons
 	{
 		displayName="(85th) FAK"
 	};
-};
-
-{
-	class ItemCore;
+	
 	class Medikit: ItemCore
 	class 85th_Medkit: Medikit
 	{
