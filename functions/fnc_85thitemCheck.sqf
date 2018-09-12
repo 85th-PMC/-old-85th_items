@@ -221,11 +221,12 @@ while {({_x == "85th_Medkit"} count items _unit) > 0} do {
 
 
 /*
-*example of an extened version of the function.
-*checks the units medic level before unpacking the items.
-*if the unit is not >= the required medic level the Medkit will remain in the units inventory.
-*before adding items it removes existing ones simulating a "full medical resuppley" without having to count anything yourself.
-*unsure if this will cause the while loop to exit and immediately start again effecting performance.
+* example of an extened version of the function.
+* checks the units medic level before unpacking the items.
+* if the unit is not >= the required medic level the Medkit will remain in the units inventory.
+* before adding items it removes existing ones simulating a "full medical resuppley" without having to count anything yourself.
+* unsure if this will cause the while loop to exit and immediately start again effecting performance.
+* "{(_unit getVariable "Ace_medical_medicClass") >= 2}" think this should be a GVAR check similer to the medical level check on L233
 
 while {({_x == "85th_Medkit"} count items _unit) > 0} and {(_unit getVariable "Ace_medical_medicClass") >= 2} do {
 	_unit removeItem "85th_Medkit";
