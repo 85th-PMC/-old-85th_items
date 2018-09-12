@@ -31,6 +31,6 @@ class cfgWeapons
 	class Medikit: ItemCore
 	class 85th_Medkit: Medikit
 	{
-		displayName="85th Medkit"
+		displayName="(85th) Medkit"
 	};
 };
