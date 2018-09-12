@@ -3,7 +3,11 @@ class CfgPatches
     class 85th_items
     {
         units[]={};
-        weapons[]={};
+        weapons[]=
+        {
+            "85th_FAK",
+            "85th_Medkit"
+        };
         requiredVersion=0.1;
         requiredAddons[]=
         {
@@ -23,12 +27,18 @@ class cfgWeapons
 {
 	class ItemCore;
 	class FirstAidKit: ItemCore
+    {
+        class ItemInfo;
+    };
+    class Medikit: ItemCore
+    {
+        class ItemInfo;
+    };
 	class 85th_FAK: FirstAidKit
 	{
 		displayName="(85th) FAK"
 	};
-	
-	class Medikit: ItemCore
+
 	class 85th_Medkit: Medikit
 	{
 		displayName="85th Medkit"
