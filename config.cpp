@@ -2,8 +2,7 @@ class CfgPatches
 {
     class 85th_items
     {
-        units[]={}
-        };
+        units[]={};
         weapons[]={};
         requiredVersion=0.1;
         requiredAddons[]=
