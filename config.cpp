@@ -11,7 +11,9 @@ class CfgPatches
         requiredVersion=0.1;
         requiredAddons[]=
         {
-            "ace_medical"
+            "ace_medical",
+	    "ace_interaction",
+	    "ace_apl"
         };
         author="85th PMC";
     };
